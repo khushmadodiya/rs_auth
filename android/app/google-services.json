@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "559875065718",
+    "project_id": "real-state-60a2b",
+    "storage_bucket": "real-state-60a2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559875065718:android:89e1ddf7a4bf69fb949c57",
+        "android_client_info": {
+          "package_name": "com.example.real_state_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXh3V9Ug79shPFVnJA3P1gznnmPractWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559875065718:android:ce49bae86d623ac6949c57",
+        "android_client_info": {
+          "package_name": "com.example.rs_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXh3V9Ug79shPFVnJA3P1gznnmPractWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
