@@ -107,6 +107,20 @@ class _HomeState extends State<Home> {
       _image = im;
     });
   }
+  Future<String> getPublicIp() async {
+  try {
+    final response = await http.get(Uri.parse('https://api64.ipify.org?format=json'));
+    if (response.statusCode == 200) {
+      final Map<String, dynamic> data = json.decode(response.body);
+      return data['ip'];
+    } else {
+      throw Exception('Failed to get public IP');
+    }
+  } catch (e) {
+    print('Error: $e');
+    return '';
+  }
+}
   @override
   Widget build(BuildContext context) {
     adminuidcontroller.text = Uri.base.queryParameters['uid'] ?? 'uid';
